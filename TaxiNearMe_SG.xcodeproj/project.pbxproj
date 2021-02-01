@@ -11,6 +11,8 @@
 		7F44375325C59B2B0002ED32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44375225C59B2B0002ED32 /* ContentView.swift */; };
 		7F44375525C59B2E0002ED32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F44375425C59B2E0002ED32 /* Assets.xcassets */; };
 		7F44375825C59B2E0002ED32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F44375725C59B2E0002ED32 /* Preview Assets.xcassets */; };
+		7F44376125C59B620002ED32 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44376025C59B620002ED32 /* LocationDelegate.swift */; };
+		7F44376425C59D280002ED32 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F44376325C59D280002ED32 /* CurrentLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		7F44375425C59B2E0002ED32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F44375725C59B2E0002ED32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F44375925C59B2E0002ED32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F44376025C59B620002ED32 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		7F44376325C59D280002ED32 /* CurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				7F44375025C59B2B0002ED32 /* TaxiNearMe_SGApp.swift */,
 				7F44375225C59B2B0002ED32 /* ContentView.swift */,
+				7F44376025C59B620002ED32 /* LocationDelegate.swift */,
+				7F44376325C59D280002ED32 /* CurrentLocation.swift */,
 				7F44375425C59B2E0002ED32 /* Assets.xcassets */,
 				7F44375925C59B2E0002ED32 /* Info.plist */,
 				7F44375625C59B2E0002ED32 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F44375325C59B2B0002ED32 /* ContentView.swift in Sources */,
+				7F44376125C59B620002ED32 /* LocationDelegate.swift in Sources */,
+				7F44376425C59D280002ED32 /* CurrentLocation.swift in Sources */,
 				7F44375125C59B2B0002ED32 /* TaxiNearMe_SGApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
